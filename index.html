@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Responsive Dashbord</title>
+</head>
+
+<body>
+    <!-- Sidebar -->
+
+    <div class="sidebar close">
+        <a href="#" class="logo">
+            <i class='bx bx-code'></i>
+            <div class="logoName">
+                <span>E</span>Social
+            </div>
+        </a>
+        <ul class="sideMenu">
+            <li class="active"><a href="#"><i class='bx bxs-dashboard'></i>Dashbord</a></li>
+            <li><a href="#"><i class='bx bx-store'></i>Shop</a></li>
+            <li ><a href="#"><i class='bx bx-analyse'></i>Analytics</a></li>
+            <li><a href="#"><i class='bx bx-message-square-dots'></i>Tickets</a></li>
+            <li><a href="#"><i class='bx bx-group'></i>Users</a></li>
+            <li><a href="#"><i class='bx bx-cog'></i>Settings</a></li>
+        </ul>
+        <ul class="sideMenu">
+            <li>
+                <a href="#" class="logout">
+                    <i class='bx bx-log-out-circle'></i> Logout
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- end of sidebar -->
+
+    <!-- main content -->
+    <div class="content">
+        <!-- navbar -->
+        <nav class="navbar">
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="formInput">
+                    <input type="serch" placeholder="Search...">
+                    <button class="search-btn" type="submit">
+                        <i class='bx bx-search' ></i>
+                    </button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme_toggle" hidden>
+            <label for="theme_toggle" class="theme_toggle"></label>
+            <a href="#" class="notification">
+                <i class='bx bx-bell' ></i>
+                <span class="count">12</span>
+            </a>
+            <a href="#" class="profile">
+                <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="logo"> 
+            </a>
+        </nav>
+        <!-- end of navbar -->
+        <!-- main -->
+        <main class="mainContent">
+            <div  class="titleSection">
+                <h2>Dashbord</h2>
+                <button>get resume</button>
+            </div>
+            <section class="grid">
+               
+            </section>
+        </main>
+        <!-- end of main -->
+    </div>
+    <!-- end of main conten -->
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "dashbord",
+  "version": "1.0.0",
+  "description": "Este es el dashbord de la red social Esocial.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "EsocialDashbord"
+  },
+  "author": "AmmarALiDev",
+  "license": "ISC"
+  
+}
+
