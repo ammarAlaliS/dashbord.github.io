@@ -21,6 +21,7 @@
     --grey:#eee;
     --dark-grey: #AAAAAA;
     --dark: #363949;
+    --danger-ligth:#ff8597;
     --danger: #d32f2f;
     --warning:#f8c02d;
     --light-warning: #fff2c6;
@@ -361,7 +362,7 @@ body{
     height: auto;
     margin-top: 0.5em;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap:0.5em;
 }
 .grid div{
@@ -378,12 +379,51 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1em;
+}
+.info{
+    width: 80px;
+}
+.info li{
+    width: 130px;
+    line-height: 1.2em;
+}
+.info li:nth-child(1){
+    font-weight: 600;
+    font-size: 1.7em;
+}
+.info .title{
+    font-weight: 400;
+    font-size: 1.11em;
 }
 
 .grid article .bx{
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
-    justify-content: end;
-    font-size: 2em;
+    justify-content: center;
+    font-size: 2.5em;
+    background-color: var(--light-primary);
+    border-radius: 0.5em;
 }
+.component[data-index="0"] article i {
+    color:var(--primary);
+  }
+
+.component[data-index="1"] article i {
+    background: var(--light-warning);
+    color:var(--warning);
+  }
+
+.component[data-index="2"] article i {
+    background: var(--light-success);
+    color:var(--success);
+  }
+
+.component[data-index="3"] article i {
+    background: var(--danger-ligth);
+    color:var(--danger);
+  }
+
 
