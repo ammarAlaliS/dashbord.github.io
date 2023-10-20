@@ -336,6 +336,7 @@ body{
 .mainContent .titleSection{
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     font-size: 1em;
@@ -364,7 +365,7 @@ body{
     height: auto;
     margin-top: 0.5em;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap:0.5em;
 }
 .grid div{
@@ -427,5 +428,53 @@ body{
     background: var(--danger-ligth);
     color:var(--danger);
   }
+
+.grid-two{
+    margin-top: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 0.5em;
+}
+
+.recent-orders-section{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light);
+    border-radius: 1em;
+    padding: 1em;
+}
+.section-header, .section-nav {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.headerAndNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+table{
+ background-color: red;
+}
+.reminders-section{
+     background: var(--light);
+     border-radius: 1em;
+     padding: 1em;
+}
+
+.mainGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1em;
+}
+.mainGrid .bx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: red;
+}
+
 
 

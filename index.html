@@ -12,7 +12,7 @@
 <body>
     <!-- Sidebar -->
 
-    <div class="sidebar close">
+    <div class="sidebar " id="sidebar">
         <a href="#" class="logo">
             <i class='bx bx-code'></i>
             <div class="logoName">
@@ -22,7 +22,7 @@
         <ul class="sideMenu">
             <li class="active"><a href="#"><i class='bx bxs-dashboard'></i>Dashbord</a></li>
             <li><a href="#"><i class='bx bx-store'></i>Shop</a></li>
-            <li ><a href="#"><i class='bx bx-analyse'></i>Analytics</a></li>
+            <li><a href="#"><i class='bx bx-analyse'></i>Analytics</a></li>
             <li><a href="#"><i class='bx bx-message-square-dots'></i>Tickets</a></li>
             <li><a href="#"><i class='bx bx-group'></i>Users</a></li>
             <li><a href="#"><i class='bx bx-cog'></i>Settings</a></li>
@@ -42,35 +42,91 @@
     <div class="content">
         <!-- navbar -->
         <nav class="navbar">
-            <i class='bx bx-menu'></i>
+            <i class='bx bx-menu' id="btn"></i>
             <form action="#">
                 <div class="formInput">
                     <input type="serch" placeholder="Search...">
                     <button class="search-btn" type="submit">
-                        <i class='bx bx-search' ></i>
+                        <i class='bx bx-search'></i>
                     </button>
                 </div>
             </form>
             <input type="checkbox" id="theme_toggle" hidden>
             <label for="theme_toggle" class="theme_toggle"></label>
             <a href="#" class="notification">
-                <i class='bx bx-bell' ></i>
+                <i class='bx bx-bell'></i>
                 <span class="count">12</span>
             </a>
             <a href="#" class="profile">
-                <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="logo"> 
+                <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="logo">
             </a>
         </nav>
         <!-- end of navbar -->
         <!-- main -->
         <main class="mainContent">
-            <div  class="titleSection">
+            <div class="titleSection">
                 <h2>Dashbord</h2>
                 <button>get resume</button>
             </div>
-            <section class="grid">
-               
+            <section class="grid"></section>
+
+            <section class="grid-two">
+                <div class="recent-orders-section">
+                    <div class="headerAndNavbar">
+                        <div class="section-header">
+                            <i class='bx bx-store-alt'></i>
+                            <h2>Recent Orders</h2>
+                        </div>
+                        <div>
+                            <ul class="section-nav">
+                                <li><i class='bx bx-menu-alt-left'></i></li>
+                                <li><i class='bx bx-search'></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="mainGrid">
+                            <li class="li">
+                                <span>Users</span>
+                                <ul>
+                                    <li>
+                                        <i class='bx bx-user' ></i>
+                                        
+                                    </li>
+                                    <li>
+                                        <h3>Jose lopez</h3>
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                            <li>Order Date</li>
+                            <li>Status</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="reminders-section">
+                    <div class="section-ul">
+                        <ul>
+                            <li>
+                                <i class='bx bx-folder-open'></i>
+                                <span>Reminders</span>
+                            </li>
+                            <li>
+                                <i class='bx bx-bar-chart'></i>
+                                <i class='bx bx-folder-plus'></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content-section">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
             </section>
+
+
         </main>
         <!-- end of main -->
     </div>
